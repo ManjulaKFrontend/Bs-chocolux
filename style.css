@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Imperial+Script&family=Inter&family=Noto+Sans+Tirhuta&family=Nunito:wght@600;700&family=Open+Sans:wght@500;600;700&family=Oswald:wght@700&family=PT+Sans+Narrow:wght@700&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Imperial+Script&family=Inter&family=Montserrat:wght@500&family=Noto+Sans+Tirhuta&family=Nunito:wght@600;700&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@700&family=PT+Sans+Narrow:wght@700&family=Raleway&family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+:root{
+--nav-links:15px;
+--sub-head:50px;
+--main-head:90px;
+--arrow-size:10px;
+--s-para:18px;
+--btn:15px;
+--name:25px;
+--input:20px;
+--logo:25px;
+--media-subhead:30px;
+}
+
+
+
+section{
+    position:relative;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ .container .navbar-brand{
+    font-family: "Imperial script";
+    font-size:var(--sub-head);
+    font-weight: bold;
+}
+.nav-item{
+    font-weight: bold;
+}
+.navbar .nav-link:hover{
+    color: chocolate;
+}
+
+/*home-section*/
+
+#home .head1{
+    font-family:"Imperial script";
+  font-weight: bold;
+    padding-top: 15%;
+    padding-left:30%;
+    font-size:var(--media-subhead);
+
+}
+
+#home.img1{
+    padding-top: 15%;
+}
+#home .head2{
+    font-family: "Imperial script";
+    font-weight: bold;
+    padding-top: 20%;
+   padding-left: 30%;
+   font-size: var(--sub-head);
+}
+#home .home-read-btn{
+    font-family: "Imperial script";
+    font-weight: bold;
+    padding-top:35%;
+    padding-left: 30%;
+    font-size: 20px;
+    
+}
+#home .btn{
+    width: 3%;
+    padding:10px 20px 10px 10px;
+margin-left: -51.5%;
+top: 20%;
+
+
+}
+
+
+
+/*about-section*/
+#about .about-h1{
+    font-family: "imperial script";
+    font-size:var(--sub-head);
+    font-weight: bold;
+}
+#about .about-para{
+    font-family: "nunito";
+    font-size: var(--s-para);
+    font-weight: bold;
+}
+#about .color-read-btn{
+    color: #5a2918;
+    font-family: "Imperial script";
+    font-size: var(--media-subhead);
+    font-weight: bold;
+}
+
+#chocolate{
+    min-height: 160vh;
+    
+}
+#chocolate h1{
+    font-family: "imperial script";
+    font-size:var(--sub-head);
+    font-weight: bold;
+}
+#chocolate p{
+    font-family: "nunito";
+    font-weight: bold;
+    font-size: var(--s-para);
+}
+ #chocolate .offer h1{
+    font-family: "imperial script";
+    font-size: var(--sub-head);
+    color: #5a2918;
+ }
+ #chocolate .offer h2{
+    font-family: "imperial script";
+    font-weight: bold;
+ }
+ #chocolate .offer .buynow-btn{
+    background-color: #5a2918;
+ }
+ #chocolate .offer .seemore{
+    color: #5a2918;
+    font-family:"Imperial Script";
+    font-weight: bold;
+ }
+ #chocolate .offer-img{
+    margin-top: -10vh;
+ }
+ #chocolate .chocolate-btn {
+    width: 8%;
+    margin-left: 35vw;
+    
+ }
+ /*testimonial*/
+
+
+#testimonial .col-6 img{
+    width: 100%;
+    height: 200vh;
+    margin-top: 40%;
+}
+ #testimonial .testimonial-head{
+    margin-left: 15%;
+    margin-top: 34vh;
+    font-family: "Imperial script";
+    font-weight: bold;
+}
+#testimonial .name{
+    margin-top: 42vh;
+    font-family: "nunito";
+    margin-left: 8vw;
+}
+#testimonial .box-shadow{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0;
+    margin-top: 48vh;
+    margin-left: -2vw;
+}
+#testimonial .client-img img{
+    height: 100px;
+    width: 100px;
+    margin-left: -1vw;
+    margin-top: 50vh;
+}
+#testimonial .testimonial-para{
+    margin-top: 70vh;
+font-family: "nunito";
+margin-left: 8vw;
+}
+
+
+
+#testimonial .quote{
+margin-top: 180vh;
+font-size: 30px;
+margin-left: 15vw;
+}
+/*contact-section*/
+#contact h1{
+
+    font-family: "Imperial script";
+   font-weight: bold;
+}
+#contact .btn{
+    background-color: #5a2918;
+}
+/*footer-section*/
+#footer{
+    min-height: 50vh;
+}
